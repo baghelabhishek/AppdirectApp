@@ -1,8 +1,11 @@
 # AppdirectApp problem 
 
+# AppdirectApp problem 
+
 jBilling​ ​Backend​ ​Practical​ ​Test
 
-This​ ​new​ ​test​ ​is​ ​a​ ​more​ ​practical​ ​exercise,​ ​where​ ​you​ ​need​ ​to​ ​write​ ​some​ ​code.​ ​The requirements​ ​are​ ​fictional​ ​and​ ​simplified​ ​so​ ​you​ ​can​ ​complete​ ​this​ ​in​ ​a​ ​reasonable​ ​time,​ ​but keep​ ​in​ ​mind​ ​that​ ​​this​ ​is​ ​your​ ​chance​ ​to​ ​show​ ​us​​ ​how​ ​well​ ​you​ ​can​ ​implement​ ​requirements. Do​ ​your​ ​best!
+This​ ​new​ ​test​ ​is​ ​a​ ​more​ ​practical​ ​exercise,​ ​where​ ​you​ ​need​ ​to​ ​write​ ​some​ ​code.​ 
+​The requirements​ ​are​ ​fictional​ ​and​ ​simplified​ ​so​ ​you​ ​can​ ​complete​ ​this​ ​in​ ​a​ ​reasonable​ ​time,​ ​but keep​ ​in​ ​mind​ ​that​ ​​this​ ​is​ ​your​ ​chance​ ​to​ ​show​ ​us​​ ​how​ ​well​ ​you​ ​can​ ​implement​ ​requirements. Do​ ​your​ ​best!
 The​ ​Prizy​ ​Pricer
 The​ ​company​ ​‘Prizy’​ ​wants​ ​to​ ​start​ ​conducting​ ​surveys​ ​of​ ​prices​ ​for​ ​different​ ​products,​ ​and​ ​then
 based​ ​on​ ​the​ ​collected​ ​information,​ ​calculate​ ​an​ ​‘Ideal​ ​Price’​ ​for​ ​a​ ​product.
@@ -10,9 +13,14 @@ The​ ​idea​ ​is​ ​to​ ​have​ ​a​ ​number​ ​of​ ​
 There​ ​will​ ​be​ ​4​ ​web​ ​service​ ​API​ ​for​ ​the​ ​backend.
 The​ ​project​ ​scope​ ​is​ ​to​ ​design​ ​and​ ​code​ ​the​ ​Backend.​​ ​​Frontend/UI​ ​is​ ​out​ ​of​ ​scope​ ​of​ ​this
 project.
+
 Product​ ​API
+
 To​ ​manage​ ​products​ ​in​ ​the​ ​the​ ​system​ ​(i.e​ ​create,​ ​list,​ ​update,​ ​delete)​ ​​ ​This​ ​API​ ​will​ ​be​ ​used​ ​to create​ ​new​ ​products​ ​in​ ​the​ ​system.​ ​Following​ ​are​ ​the​ ​important​ ​attributes​ ​of​ ​the​ ​Product
-● Product​ ​Identifier​ ​(unique​ ​system​ ​generated​ ​value)
+
+● Product​ ​Identifier​
+
+​(unique​ ​system​ ​generated​ ​value)
 ● Product​ ​Name
 ● Base​ ​Price​ ​(​ ​price​ ​of​ ​the​ ​product​ ​as​ ​per​ ​manufacturer)
 Store​ ​API
@@ -27,6 +35,7 @@ This​ ​API​ ​is​ ​what​ ​the​ ​Frontend​ ​calls​ ​to
 Product​ ​Pricing​ ​details​ ​API
 This​ ​API​ ​is​ ​used​ ​to​ ​retrieve​ ​the​ ​product​ ​pricing​ ​details​ ​given​ ​a​ ​identifier​ ​for​ ​the​ ​product.​ ​The product​ ​details​ ​provides​ ​following​ ​fields.
 ● Product​ ​identifier
+
 ● Product​ ​Name
 ● Base​ ​Price
 ● Average​ ​Store​ ​​ ​price
@@ -63,20 +72,9 @@ The​ ​Services​ ​(API)​ ​tier​ ​is​ ​recommended​ ​to​
 Business​ ​Logic​ ​and​ ​Application​ ​logic​ ​can​ ​be​ ​implemented​ ​using​ ​frameworks​ ​mentioned​ ​above where​ ​applicable.​ ​However​ ​It​ ​would​ ​be​ ​advisable​ ​to​ ​code​ ​the​ ​logic​ ​related​ ​to​ ​Pricing​ ​calculation and​ ​batching​ ​in​ ​Core​ ​Java​ ​using​ ​standard​ ​library​ ​classes​ ​and​ ​features.
 The​ ​DB​ ​can​ ​be​ ​any​ ​of​ ​these:​ ​PostgreSQL(preferred)/HSQL/MySQL(acceptable).​ ​You​ ​can​ ​use any​ ​DB​ ​version,​ ​which​ ​is​ ​not​ ​too​ ​old.​ ​Use​ ​a​ ​suitable​ ​ORM​ ​library/framework​ ​to​ ​provide​ ​access​ ​to database​ ​and​ ​serving​ ​queries/updates.
  
- Delivery
-● A​ ​zip​ ​file​ ​with​ ​all​ ​the​ ​necessary​ ​files.​ ​Email​ ​this​ ​to​ ​​abhishek.pandey@appdirect.com​​ ​​ ​with the​ ​Subject​ ​“Java​ ​Practical​ ​Test”.​ ​Don’t​ ​forget​ ​to​ ​include​ ​your​ ​name​ ​to​ ​this​ ​email.
-● A​ ​simple​ ​way​ ​to​ ​build​ ​the​ ​application​ ​(do​ ​not​ ​submit​ ​the​ ​binary).
-● A​ ​simple​ ​way​ ​to​ ​run​ ​the​ ​tests.
-● A​ ​DB​ ​dump​ ​with​ ​the​ ​database​ ​initialized,​ ​or​ ​some​ ​other​ ​way​ ​so​ ​we​ ​can​ ​use​ ​the
-application​ ​and​ ​see​ ​some​ ​data​ ​in​ ​it​ ​(products​ ​and​ ​prices​ ​for​ ​those​ ​products).
-● Add​ ​to​ ​the​ ​zip​ ​file​ ​a​ ​README.txt​ ​file​ ​with​ ​any​ ​and​ ​all​ ​the​ ​instructions​ ​that​ ​we​ ​need​ ​in
-order​ ​to​ ​run​ ​the​ ​application​ ​and​ ​the​ ​tests. Evaluation
-● We​ ​do​ ​not​ ​expect​ ​you​ ​to​ ​have​ ​strong​ ​knowledge​ ​of​ ​various​ ​frameworks.
-● We​ ​expect​ ​you​ ​to​ ​have​ ​the​ ​ability​ ​to​ ​write​ ​clean​ ​code​ ​using​ ​core​ ​language​ ​features
-● We​ ​are​ ​more​ ​interested​ ​in​ ​how​ ​good​ ​you​ ​are​ ​at​ ​designing​ ​and​ ​implementing​ ​a​ ​piece​ ​of
-code​ ​from​ ​scratch.​ ​Remember​ ​to​ ​keep​ ​in​ ​mind​ ​SOLID​ ​and​ ​DRY​ ​design​ ​principles​ ​while
+
 implementation.
-● Keep​ ​in​ ​mind​ ​the​ ​correctness​ ​of​ ​the​ ​code​ ​you​ ​write.
+● Keep in​ ​mind​ ​the​ ​correctness​ ​of​ ​the​ ​code​ ​you​ ​write.
 ● Quality​ ​of​ ​the​ ​tests.
 ● Design​ ​to​ ​ease​ ​the​ ​implementation​ ​of​ ​new​ ​ideal​ ​price​ ​formulas.
 ● Runtime​ ​performance​ ​of​ ​batch​ ​calculation​ ​logic
@@ -142,3 +140,4 @@ ResponseBody​ ​:
 ​ ​job:​ ​<job-name> started:​ ​<started-date>
 
 }
+
